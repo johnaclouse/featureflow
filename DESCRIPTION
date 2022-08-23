@@ -14,6 +14,5 @@ Imports:
     dplyr,
     magrittr,
     openssl
-URL: https://github.com/johnaclouse/featureflow,
-    https://johnaclouse.github.io/featureflow/
+URL: https://github.com/johnaclouse/featureflow
 BugReports: https://github.com/johnaclouse/featureflow/issues
