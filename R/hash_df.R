@@ -10,8 +10,8 @@
 #' @return A dataframe with two columns: name and hash
 #' @export
 #' @examples
-#' hash_df(iris[1])
 #' hash_df(iris)
+#' hash_df(iris, margin = "columns")
 
 hash_df <- function(df,
                     margin = c("rows", "columns")){
