@@ -1,11 +1,16 @@
 Package: featureflow
-Title: What the Package Does (One Line, Title Case)
+Title: Functions to support incremental feature engineering
 Version: 0.0.0.9001
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("John", "Clouse", , "johnaclouse@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-0369-2116"))
+Description: A collection of functions to help automate the feature engineering pipeline. Enabling a model where raw data is converted into features in steps with support for identifying what has change, intentionally or unintentionally, at each step, performing exploratory data analysis on the new features, identifying the introduction of duplicate data, and providing a mechanism for following test cases through the feature engineering process.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.0
+Imports: 
+    magrittr,
+    openssl
+URL: https://github.com/johnaclouse/featureflow
+BugReports: https://github.com/johnaclouse/featureflow/issues
