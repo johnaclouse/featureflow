@@ -12,6 +12,7 @@ A collection of functions to help automate the feature engineering pipeline. Ena
 Useful links:
 \itemize{
   \item \url{https://github.com/johnaclouse/featureflow}
+  \item \url{https://johnaclouse.github.io/featureflow/}
   \item Report bugs at \url{https://github.com/johnaclouse/featureflow/issues}
 }
 
