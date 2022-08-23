@@ -8,6 +8,14 @@
 \description{
 A collection of functions to help automate the feature engineering pipeline. Enabling a model where raw data is converted into features in steps with support for identifying what has change, intentionally or unintentionally, at each step, performing exploratory data analysis on the new features, identifying the introduction of duplicate data, and providing a mechanism for following test cases through the feature engineering process.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/johnaclouse/featureflow}
+  \item Report bugs at \url{https://github.com/johnaclouse/featureflow/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: John Clouse \email{johnaclouse@gmail.com} (\href{https://orcid.org/0000-0002-0369-2116}{ORCID})
 
